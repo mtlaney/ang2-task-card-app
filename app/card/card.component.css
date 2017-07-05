@@ -1,10 +1,18 @@
+
 .card {
     border-radius: 0;
+    cursor: pointer;
 }
 .card,
 .card-footer{
     background-color: #ffffa5;
     border: none;
+}
+.card.completed,
+.card.completed .card-footer, 
+.card.completed i{
+    background-color: #eee;
+    color: #ccc;
 }
 .card-footer{
     text-align: right;
